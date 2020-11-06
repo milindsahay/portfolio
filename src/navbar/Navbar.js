@@ -12,9 +12,12 @@ class Navbar extends React.Component {
         <div className="image-container">
           <img className="profile" src={profile} />
         </div>
-        <Navitem item="HOME" />
-        <Navitem item="ABOUT" />
-        <Navitem item="CONTACT" />
+        <div className="links">
+          <Navitem item="HOME" />
+          <Navitem item="ABOUT" />
+          <Navitem item="AWARDS" />
+          <Navitem item="CONTACT" />
+        </div>
       </div>
     );
   }

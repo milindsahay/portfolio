@@ -10,18 +10,20 @@
     flex-direction: column;
     justify-content: center;
     min-width: 150px;
+    max-width: 300px;
     background: linear-gradient(0deg, rgba(66,24,11,1) 4%, rgba(99,21,10,0.8533788515406162) 58%, rgba(143,67,67,1) 100%);
-    padding: 0.8em;
+    padding: 0.8em 0.8em 6em 0.8em;
 }
 
 .image-container{
     text-align: center;
     padding: 0.5em;
+    height: 18%;
 
 }
 .image-container img{
     border-radius: 50%;
-    width: 70%;
+    height: 100%;
 }
 .navitem{
     font-size: 1em;
