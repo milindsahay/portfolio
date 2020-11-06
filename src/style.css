@@ -33,8 +33,57 @@
     font-weight: 300;
 }
 .navitem:hover{
-    font-weight: 700;
+    font-weight: bolder;
     transition: all 0.2s;
 }
-
+.my-container{
+    display: flex;
+    padding: 2em 2em 5em 2em;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+.name{
+    font-size: 4em;
+    font-weight: 1000;
+}
+.first-name{
+    font-weight: 700;
+}
+.last-name{
+    font-weight: 700;
+    color: darkred;
+}
+.type{
+    font-size: 2em;
+    font-weight: 500;
+    color: #7d7c79;
+    margin-top: -0.5em;
+}
+.description{
+    margin-top: 1.5em;
+    font-size: 1em;
+    color: #7d7c79;
+    line-height: 1em;
+}
+.social{
+    display: flex;
+    margin-top: 1.8em;
+}
+.icon-box{
+    padding: 0.5em;
+    font-size: 1.2em;
+    border-radius: 50%;
+    background-color: #343130;
+    margin-right: 1em;
+    width:2.5em;
+    text-align: center;
+}
+.icon-box:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+.icon{
+    color: white;
+}
 

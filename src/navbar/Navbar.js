@@ -13,10 +13,10 @@ class Navbar extends React.Component {
           <img className="profile" src={profile} />
         </div>
         <div className="links">
-          <Navitem item="HOME" />
-          <Navitem item="ABOUT" />
-          <Navitem item="AWARDS" />
-          <Navitem item="CONTACT" />
+          <Navitem item="HOME" toLink="/" />
+          <Navitem item="ABOUT" toLink="/about" />
+          <Navitem item="AWARDS" toLink="/awards" />
+          <Navitem item="CONTACT" toLink="/contact" />
         </div>
       </div>
     );
