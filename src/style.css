@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.app{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.navbar{
+    flex-direction: column;
+    justify-content: center;
+    min-width: 150px;
+    background: linear-gradient(0deg, rgba(66,24,11,1) 4%, rgba(99,21,10,0.8533788515406162) 58%, rgba(143,67,67,1) 100%);
+    padding: 0.8em;
+}
+
+.image-container{
+    text-align: center;
+    padding: 0.5em;
+
+}
+.image-container img{
+    border-radius: 50%;
+    width: 70%;
+}
+.navitem{
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    padding: 0.5em;
+    font-weight: 300;
+}
+.navitem:hover{
+    font-weight: 700;
+    transition: all 0.2s;
+}
+
+
