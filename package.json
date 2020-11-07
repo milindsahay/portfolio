@@ -20,12 +20,14 @@
   "homepage": "https://github.com/milindsahay/portfolio#readme",
   "dependencies": {
     "@reach/router": "^1.3.4",
+    "emailjs-com": "^2.6.3",
     "prettier": "^2.1.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-typing-effect": "^2.0.4",
     "react-typist": "^2.0.5",
-    "reactjs-typing-effect": "^1.0.8"
+    "reactjs-typing-effect": "^1.0.8",
+    "reactstrap": "^8.7.1"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"

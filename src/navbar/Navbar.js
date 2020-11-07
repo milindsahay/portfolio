@@ -15,7 +15,6 @@ class Navbar extends React.Component {
         <div className="links">
           <Navitem item="HOME" toLink="/" />
           <Navitem item="ABOUT" toLink="/about" />
-          <Navitem item="AWARDS" toLink="/awards" />
           <Navitem item="CONTACT" toLink="/contact" />
         </div>
       </div>

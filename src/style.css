@@ -104,4 +104,7 @@
 .button:hover{
     background:  rgba(66,24,11,1);
 }
+.button:active{
+    background:  rgba(66,24,11,1);
+}
 
