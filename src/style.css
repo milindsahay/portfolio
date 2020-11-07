@@ -89,11 +89,6 @@
     font-size: 1.2em;
     color: #7d7c79;
 }
-.form{
-    display: flex;
-    margin-top: 1em;
-    /*align-content: center;*/
-}
 .button-container{
     align-self: center;
 }

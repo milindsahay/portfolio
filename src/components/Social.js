@@ -1,30 +1,24 @@
 import React from "react";
-
+import SocialIcon from "./SocialIcon";
 const Social = () => {
   return (
     <div className="social">
-      <a href="https://github.com/milindsahay" target="_blank">
-        {" "}
-        <div className="icon-box">
-          <i className="fa fa-github icon"></i>
-        </div>
-      </a>
-      <a href="https://www.linkedin.com/in/milindsahay/" target="_blank">
-        <div className="icon-box">
-          <i className="fa fa-linkedin icon"></i>
-        </div>
-      </a>
-      <a href="https://medium.com/@milind_sahay" target="_blank">
-        {" "}
-        <div className="icon-box">
-          <i className="fa fa-medium icon"></i>
-        </div>
-      </a>
-      <a href="https://www.instagram.com/milindsahay/" target="_blank">
-        <div className="icon-box">
-          <i className="fa fa-instagram icon"></i>
-        </div>
-      </a>
+      <SocialIcon
+        tolink="https://github.com/milindsahay"
+        icon="fa fa-github icon"
+      />
+      <SocialIcon
+        tolink="https://www.linkedin.com/in/milindsahay/"
+        icon="fa fa-linkedin icon"
+      />
+      <SocialIcon
+        tolink="https://medium.com/@milind_sahay"
+        icon="fa fa-medium icon"
+      />
+      <SocialIcon
+        tolink="https://www.instagram.com/milindsahay/"
+        icon="fa fa-instagram icon"
+      />
     </div>
   );
 };
