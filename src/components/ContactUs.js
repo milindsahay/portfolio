@@ -1,11 +1,9 @@
 import React, { Component } from "react";
 import * as emailjs from "emailjs-com";
-import { Form, FormGroup, Label, Input } from "reactstrap";
 class ContactForm extends Component {
   state = {
     name: "",
     email: "",
-    subject: "",
     message: "",
   };
   handleSubmit(e) {
@@ -13,6 +11,7 @@ class ContactForm extends Component {
     const { name, email, message } = this.state;
     let templateParams = {
       from_name: email,
+      name: name,
       to_name: "milind.sahay123@gmail.com",
       message: message,
     };
@@ -37,21 +36,20 @@ class ContactForm extends Component {
   render() {
     return (
       <div>
-        <Form onSubmit={this.handleSubmit.bind(this)}>
-          <FormGroup controlId="formBasicEmail">
-            <Label className="text-muted">Email address</Label>
-            <Input
+        <form onSubmit={this.handleSubmit.bind(this)}>
+          <div className="form-group">
+            <label className="text-muted">Email address</label>
+            <input
               type="email"
-              name="email"
               value={this.state.email}
-              className="text-primary"
+              className="form-control"
               onChange={this.handleChange.bind(this, "email")}
               placeholder="Enter email"
             />
-          </FormGroup>
-          <FormGroup controlId="formBasicName">
-            <Label className="text-muted">Name</Label>
-            <Input
+          </div>
+          <div className="form-group">
+            <label className="text-muted">Name</label>
+            <input
               type="text"
               name="name"
               value={this.state.name}
@@ -59,19 +57,19 @@ class ContactForm extends Component {
               onChange={this.handleChange.bind(this, "name")}
               placeholder="Name"
             />
-          </FormGroup>
-          <FormGroup controlId="formBasicMessage">
-            <Label className="text-muted">Message</Label>
-            <Input
+          </div>
+          <div className="form-group">
+            <label className="text-muted">Message</label>
+            <input
               type="textarea"
               name="message"
               className="form-control"
               value={this.state.message}
               onChange={this.handleChange.bind(this, "message")}
             />
-          </FormGroup>
+          </div>
           <button className="button btn btn-danger">Submit</button>
-        </Form>
+        </form>
       </div>
     );
   }
