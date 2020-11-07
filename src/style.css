@@ -12,7 +12,7 @@
     min-width: 150px;
     max-width: 300px;
     background: linear-gradient(0deg, rgba(66,24,11,1) 4%, rgba(99,21,10,0.8533788515406162) 58%, rgba(143,67,67,1) 100%);
-    padding: 0.8em 0.8em 6em 0.8em;
+    padding: 0.8em 0.8em 5% 0.8em;
 }
 
 .image-container{
@@ -38,14 +38,13 @@
 }
 .my-container{
     display: flex;
-    padding: 2em 2em 5em 2em;
+    padding: 2em 2em 8% 5em;
     flex-direction: column;
     justify-content: center;
     height: 100%;
 }
 .name{
     font-size: 4em;
-    font-weight: 1000;
 }
 .first-name{
     font-weight: 700;
@@ -62,7 +61,7 @@
 }
 .description{
     margin-top: 1.5em;
-    font-size: 1em;
+    font-size: 1.2em;
     color: #7d7c79;
     line-height: 1em;
 }
@@ -85,5 +84,9 @@
 }
 .icon{
     color: white;
+}
+.text{
+    font-size: 1.2em;
+    color: #7d7c79;
 }
 

@@ -7,7 +7,7 @@ const Home = () => {
     <div className="container my-container">
       <div className="name">
         <span className="first-name">MILIND </span>
-        <span className="last-name">SAHAY</span>
+        <span className="last-name">SAHAY.</span>
       </div>
       <ReactTypingEffect
         className="type"
@@ -23,7 +23,7 @@ const Home = () => {
       />
       <div className="description">
         I am a Software Developer, currently working at Flipkart. Being someone
-        watching technological world closely, i believe there are a million
+        observing the technological world closely, i believe there are a million
         things to learn in terms of technology and life skills in general.
       </div>
       <Social />
