@@ -4,7 +4,7 @@ import Social from "./Social";
 
 const Home = () => {
   return (
-    <div className="container my-container">
+    <div className="my-container">
       <div className="name mb-2">
         <span className="first-name">MILIND </span>
         <span className="last-name">SAHAY.</span>
