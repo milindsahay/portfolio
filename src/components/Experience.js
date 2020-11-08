@@ -4,6 +4,11 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import FlipkartLogo from "./logos/FlipkartLogo";
+import DtuLogo from "./logos/DtuLogo";
+import CentricwaveLogo from "./logos/CentricwaveLogo";
+import CareerLauncherLogo from "./logos/CareerLauncherLogo";
+import StarLogo from "./logos/StarLogo";
 
 const Experience = () => {
   return (
@@ -13,6 +18,7 @@ const Experience = () => {
           className="vertical-timeline-element--work"
           date="July 2020 - Present"
           iconStyle={{ background: "darkred", color: "#fff" }}
+          icon={<FlipkartLogo />}
         >
           <h3 className="vertical-timeline-element-title">Flipkart</h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -21,13 +27,14 @@ const Experience = () => {
           <p>
             Working as a part of the Fulfillment team, designing and developing
             highly scalable systems on Flipkart's cloud, facilitating the supply
-            chain nationally.{" "}
+            chain nationally.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2016 - 2020"
           iconStyle={{ background: "darkred", color: "#fff" }}
+          icon={<DtuLogo />}
         >
           <h3 className="vertical-timeline-element-title">
             Delhi College of Engineering
@@ -40,7 +47,8 @@ const Experience = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="Oct 2019 - Apr 2020"
-          iconStyle={{ background: "darkred", color: "#fff" }}
+          iconStyle={{ background: "white", color: "#fff" }}
+          icon={<CentricwaveLogo />}
         >
           <h3 className="vertical-timeline-element-title">
             Centricwave Infotech
@@ -58,6 +66,7 @@ const Experience = () => {
           className="vertical-timeline-element--education"
           date="Jun 2019 - Aug 2019"
           iconStyle={{ background: "darkred", color: "#fff" }}
+          icon={<CareerLauncherLogo />}
         >
           <h3 className="vertical-timeline-element-title">Career Launcher</h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -74,6 +83,7 @@ const Experience = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+          icon={<StarLogo />}
         />
       </VerticalTimeline>
     </div>

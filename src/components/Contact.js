@@ -5,7 +5,7 @@ import ContactForm from "./ContactUs";
 const Contact = () => {
   return (
     <div className="about-container">
-      <div className="name">
+      <div className="name mb-5">
         <span className="first-name">Contact </span>
         <span className="last-name">Me.</span>
       </div>
