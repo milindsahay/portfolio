@@ -9,7 +9,7 @@
 .navbar{
     flex-direction: column;
     justify-content: center;
-    min-width: 150px;
+    min-width: 200px;
     max-width: 300px;
     background: linear-gradient(0deg, rgba(66,24,11,1) 4%, rgba(99,21,10,0.8533788515406162) 58%, rgba(143,67,67,1) 100%);
     padding: 0.8em 0.8em 5% 0.8em;
@@ -44,6 +44,11 @@
     height: 100%;
     overflow-y: auto;
 }
+.about-container{
+    overflow-y: scroll;
+    height: 100%;
+    padding: 4em;
+}
 .timeline-container{
     width:80vw;
     height: 100%;
@@ -54,6 +59,8 @@
 }
 .name{
     font-size: 4em;
+    line-height: 1em;
+    margin-bottom: 0.6em;
 }
 .first-name{
     font-weight: 700;
