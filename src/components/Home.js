@@ -1,7 +1,7 @@
 import React from "react";
 import ReactTypingEffect from "react-typing-effect";
 import Social from "./Social";
-
+// Todo add success on click functionality in contact
 const Home = () => {
   return (
     <div className="my-container">
@@ -24,7 +24,7 @@ const Home = () => {
       />
       <div className="description">
         I am a Software Developer, currently working at Flipkart. Building
-        scalable and performant models is what i strive for. Always looking
+        scalable and performant models is what I strive for. Always looking
         forward to new challenges when it comes to technology.
       </div>
       <Social />
