@@ -77,6 +77,7 @@
 .title{
     font-size: 4em;
     line-height: 1em;
+    font-family: 'Titillium Web', sans-serif;
 }
 .first-name{
     font-weight: 700;
@@ -90,6 +91,7 @@
     font-weight: 500;
     color: #7d7c79;
     margin-top: -0.5em;
+    font-family: 'Oxygen', sans-serif;
 }
 .description{
     margin-top: 1.5em;
@@ -97,6 +99,7 @@
     color: #7d7c79;
     line-height: 1em;
     margin-bottom: 1.8em;
+    font-family: 'Slabo', sans-serif;
 }
 .social{
     display: flex;
@@ -118,6 +121,7 @@
     color: white;
 }
 .text{
+    font-family: 'Slabo', serif;
     font-size: 1.2em;
     color: #7d7c79;
 }
@@ -133,6 +137,15 @@
 }
 .button:active{
     background:  rgba(66,24,11,1);
+}
+.vertical-timeline-element p{
+    font-family: 'Slabo', serif;
+}
+.vertical-timeline-element h4{
+    font-family: 'Oxygen', sans-serif;
+}
+.vertical-timeline-element h3{
+    font-family: 'Titillium Web', sans-serif;
 }
 
 /*import timeline css issue*/
