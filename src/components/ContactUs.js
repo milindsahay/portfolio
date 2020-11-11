@@ -60,9 +60,10 @@ class ContactForm extends Component {
           </div>
           <div className="form-group">
             <label className="text-muted">Message</label>
-            <input
+            <textarea
               type="textarea"
               name="message"
+              rows="4"
               className="form-control"
               value={this.state.message}
               onChange={this.handleChange.bind(this, "message")}
