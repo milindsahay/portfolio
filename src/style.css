@@ -154,6 +154,13 @@
 .vertical-timeline{
     max-width: 100% !important;
 }
+/*Hide toggle and close button on navbar for normal screen size*/
+.toggle-sidebar-button{
+    display: none;
+}
+.navbar-close-button{
+    display: none;
+}
 
 
 @media screen and (min-width: 950px) {
@@ -168,18 +175,46 @@
         width:calc(100vw - 300px);
     }
 }
-/*Sidebar*/
+/* Sidebar responsiveness for width < 600px */
 @media screen and (max-width: 600px) {
     .hide-sidebar{
         position: absolute;
         visibility: hidden;
     }
-    .toggle-sidebar{
-        display: inline-block;
-        position: absolute;
+    .toggle-sidebar-button{
+        display: block;
+        position: relative;
+        padding: 3rem 1rem 0.2rem 1rem;
+        font-size: 1.5rem;
+        background: rgba(99,21,10,0.8533788515406162);
+        color: white;
     }
     .show-sidebar{
-        position: static;
+        position: relative;
         display: flex;
+    }
+    .navbar-close-button{
+        background: transparent;
+        font-size: 1.1rem;
+        color: #fff;
+        display: inline-block;
+        position: absolute;
+        top: 0.5%;
+        right: 4%;
+    }
+    .home-container{
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+    .timeline-container{
+        padding-left: 3rem;
+    }
+    .about-container{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .contact-container{
+        padding-left: 2rem;
+        padding-right: 1.2rem;
     }
 }

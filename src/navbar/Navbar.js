@@ -9,6 +9,8 @@ class Navbar extends React.Component {
   render() {
     return (
       <div className={ this.props.toggle ? "navbar show-sidebar" : "navbar hide-sidebar" } >
+        <div className="navbar-close-button" onClick={ () => this.props.changeToggle(false) }><i
+            className="fa fa-window-close"></i> </div>
         <div className="image-container">
           <img className="profile" src={profile} />
         </div>

@@ -12,9 +12,9 @@ const App = () => {
   return (
     <div className="app">
       <Navbar toggle={toggleSidebar} changeToggle={useToggleSidebar}/>
-      <button className="toggle-sidebar" onClick={()=>{
+        {!toggleSidebar && <div className="toggle-sidebar-button" onClick={()=>{
           useToggleSidebar(prevState => !prevState );
-      }}>Toggle</button>
+      }}><i className="fa fa-list" aria-hidden="true"></i></div>}
       <Router>
         <Home path="/" />
         <About path="/about" />
