@@ -171,13 +171,15 @@
 /*Sidebar*/
 @media screen and (max-width: 600px) {
     .hide-sidebar{
-        display: none;
+        position: absolute;
+        visibility: hidden;
     }
     .toggle-sidebar{
         display: inline-block;
         position: absolute;
     }
     .show-sidebar{
+        position: static;
         display: flex;
     }
 }

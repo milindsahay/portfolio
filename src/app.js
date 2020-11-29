@@ -11,7 +11,7 @@ const App = () => {
     const [toggleSidebar, useToggleSidebar] = useState(false);
   return (
     <div className="app">
-      <Navbar toggle={toggleSidebar}/>
+      <Navbar toggle={toggleSidebar} changeToggle={useToggleSidebar}/>
       <button className="toggle-sidebar" onClick={()=>{
           useToggleSidebar(prevState => !prevState );
       }}>Toggle</button>

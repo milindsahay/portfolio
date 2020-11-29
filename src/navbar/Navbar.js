@@ -8,15 +8,15 @@ class Navbar extends React.Component {
 
   render() {
     return (
-      <div className={this.props.toggle?"navbar show-sidebar" : "navbar hide-sidebar"} >
+      <div className={ this.props.toggle ? "navbar show-sidebar" : "navbar hide-sidebar" } >
         <div className="image-container">
           <img className="profile" src={profile} />
         </div>
         <div className="links">
-          <Navitem item="HOME" toLink="/" />
-          <Navitem item="ABOUT" toLink="/about" />
-          <Navitem item="EXPERIENCE" toLink="/experience" />
-          <Navitem item="CONTACT" toLink="/contact" />
+          <Navitem item="HOME" toLink="/" changeToggle={ this.props.changeToggle }/>
+          <Navitem item="ABOUT" toLink="/about" changeToggle={ this.props.changeToggle } />
+          <Navitem item="EXPERIENCE" toLink="/experience" changeToggle={ this.props.changeToggle } />
+          <Navitem item="CONTACT" toLink="/contact" changeToggle={ this.props.changeToggle }/>
         </div>
       </div>
     );
