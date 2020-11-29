@@ -18,7 +18,11 @@ const About = () => {
         hackathon (in terms of prize money) and my team was the first runner up
         in Infineon India Campus Hackathon in AI/ML track, held in Bengaluru,
         India. Occasionally, I write for the medium publication 'towards data
-        science' as well. Currently I'm working at Flipkart as a Software
+        science' as well.
+      </div>
+        <br/>
+      <div className="text">
+          Currently I'm working at Flipkart as a Software
         Developer. As the world is becoming more technology-driven, I realise
         that the possibilities of development and data in Computer Science are
         limitless in each and every aspect of Computer Science and still not yet

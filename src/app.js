@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { render } from "react-dom";
 import { Router } from "@reach/router";
 import Navbar from "./navbar/Navbar";
@@ -8,9 +8,13 @@ import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 
 const App = () => {
+    const [toggleSidebar, useToggleSidebar] = useState(false);
   return (
     <div className="app">
-      <Navbar />
+      <Navbar toggle={toggleSidebar} changeToggle={useToggleSidebar}/>
+        {!toggleSidebar && <div className="toggle-sidebar-button" onClick={()=>{
+          useToggleSidebar(prevState => !prevState );
+      }}><i className="fa fa-list" aria-hidden="true"></i></div>}
       <Router>
         <Home path="/" />
         <About path="/about" />
