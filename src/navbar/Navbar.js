@@ -2,13 +2,13 @@ import React from "react";
 import Navitem from "./Navitem";
 import profile from "./profile.jpeg";
 class Navbar extends React.Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
   }
 
   render() {
     return (
-      <div className="navbar">
+      <div className={this.props.toggle?"navbar show-sidebar" : "navbar hide-sidebar"} >
         <div className="image-container">
           <img className="profile" src={profile} />
         </div>
