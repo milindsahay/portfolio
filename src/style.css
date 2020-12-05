@@ -4,6 +4,7 @@
 .app{
     display: flex;
     height: 100vh;
+    width: 100vw;
 }
 .app>div{
     flex-grow: 1;
@@ -214,5 +215,17 @@
     }
     .title-sm{
         font-size: 3rem;
+    }
+    .title{
+        font-size: 3rem;
+    }
+    .type{
+        font-size: 1.8rem;
+        margin-top: -5px;
+        line-height: 2rem;
+    }
+    .description{
+        bottom: 5%;
+        font-size: 1rem;
     }
 }
