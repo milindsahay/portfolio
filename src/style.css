@@ -175,11 +175,11 @@
         width:calc(100vw - 300px);
     }
 }
-/* Sidebar responsiveness for width < 850px */
-@media screen and (max-width: 850px) {
+
+/* Sidebar responsiveness for width < 950px */
+@media screen and (max-width: 950px) {
     .hide-sidebar{
-        position: absolute;
-        visibility: hidden;
+        display: none;
     }
     .toggle-sidebar-button{
         display: block;
