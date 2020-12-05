@@ -5,6 +5,9 @@
     display: flex;
     height: 100vh;
 }
+.app>div{
+    flex-grow: 1;
+}
 .loader{
     position: absolute;
     top: 50%;
@@ -162,28 +165,14 @@
     display: none;
 }
 
-
-@media screen and (min-width: 950px) {
-    .home-container{
-        width:calc(100vw - 300px);
-    }
-    .about-container{
-        width:calc(100vw - 300px);
-    }
-    .contact-container{
-        padding-top: 6em;
-        width:calc(100vw - 300px);
-    }
-}
-
 /* Sidebar responsiveness for width < 950px */
 @media screen and (max-width: 950px) {
     .hide-sidebar{
         display: none;
     }
     .toggle-sidebar-button{
-        display: block;
-        position: relative;
+        display: flex;
+        justify-content: center;
         padding: 3rem 1rem 0.2rem 1rem;
         font-size: 1.5rem;
         background: rgba(99,21,10,0.8533788515406162);
@@ -208,7 +197,6 @@
     .home-container{
         padding-left: 2rem;
         padding-right: 1rem;
-        width:calc(100vw - 56px);
     }
     .timeline-container{
         padding-left: 3rem;
@@ -216,18 +204,15 @@
     .about-container{
         padding-left: 2rem;
         padding-right: 2rem;
-        width:calc(100vw - 56px);
     }
     .contact-container{
         padding-left: 2rem;
         padding-right: 1.2rem;
-        width:calc(100vw - 56px);
     }
     .text{
         font-size: 0.9rem;
     }
     .title-sm{
         font-size: 3rem;
-        margin-bottom: -4%;
     }
 }
