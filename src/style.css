@@ -175,8 +175,8 @@
         width:calc(100vw - 300px);
     }
 }
-/* Sidebar responsiveness for width < 600px */
-@media screen and (max-width: 600px) {
+/* Sidebar responsiveness for width < 750px */
+@media screen and (max-width: 750px) {
     .hide-sidebar{
         position: absolute;
         visibility: hidden;
@@ -216,5 +216,12 @@
     .contact-container{
         padding-left: 2rem;
         padding-right: 1.2rem;
+    }
+    .text{
+        font-size: 0.9rem;
+    }
+    .title-sm{
+        font-size: 3rem;
+        margin-bottom: -4%;
     }
 }
