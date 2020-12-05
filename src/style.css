@@ -175,8 +175,8 @@
         width:calc(100vw - 300px);
     }
 }
-/* Sidebar responsiveness for width < 750px */
-@media screen and (max-width: 750px) {
+/* Sidebar responsiveness for width < 850px */
+@media screen and (max-width: 850px) {
     .hide-sidebar{
         position: absolute;
         visibility: hidden;
