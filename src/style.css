@@ -193,6 +193,9 @@
         position: relative;
         display: flex;
     }
+    .navbar{
+        max-width: 200px;
+    }
     .navbar-close-button{
         background: transparent;
         font-size: 1.1rem;
@@ -205,6 +208,7 @@
     .home-container{
         padding-left: 2rem;
         padding-right: 1rem;
+        width:calc(100vw - 56px);
     }
     .timeline-container{
         padding-left: 3rem;
@@ -212,10 +216,12 @@
     .about-container{
         padding-left: 2rem;
         padding-right: 2rem;
+        width:calc(100vw - 56px);
     }
     .contact-container{
         padding-left: 2rem;
         padding-right: 1.2rem;
+        width:calc(100vw - 56px);
     }
     .text{
         font-size: 0.9rem;
