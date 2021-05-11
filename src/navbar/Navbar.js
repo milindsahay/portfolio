@@ -5,14 +5,17 @@ class Navbar extends React.Component {
   constructor(props) {
     super(props);
   }
+    componentDidMount() {
+      this.props.setIsLoading(false)
+    }
 
-  render() {
+    render() {
     return (
       <div className={ this.props.toggle ? "navbar show-sidebar" : "navbar hide-sidebar" } >
         <div className="navbar-close-button" onClick={ () => this.props.changeToggle(false) }><i
             className="fa fa-times"></i> </div>
         <div className="image-container">
-          <img className="profile" src={profile} />
+          <img className="profile" src={profile} onLoad={() =>  this.props.setIsLoading(true)} style={this.props.loading ? {} : { display: 'none' }}/>
         </div>
         <div className="links">
           <Navitem item="HOME" toLink="/" changeToggle={ this.props.changeToggle }/>
