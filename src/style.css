@@ -165,6 +165,28 @@
 .navbar-close-button{
     display: none;
 }
+.card{
+    color: #343130;
+}
+.card h5{
+    font-weight: 400;
+}
+.card-symbol{
+    color: rgba(99,21,10,0.8533788515406162);
+    font-weight: 800;
+    visibility: hidden;
+    opacity:0;
+    transition:visibility 0.3s linear,opacity 0.3s linear;
+}
+
+.card:hover{
+    color: #343130;
+}
+
+.card:hover .card-symbol{
+    visibility: visible;
+    opacity:1;
+}
 
 /* Sidebar responsiveness for width < 950px */
 @media screen and (max-width: 950px) {
