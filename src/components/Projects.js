@@ -23,19 +23,19 @@ const Projects = () => {
         },
         {
             name: "Think Tank",
-            content: "A social blogging user authenticated application using react, redux and firebase.",
+            content: "A social, user authenticated website using react, redux and firebase.",
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJnbjer-oBSRn1W5DLULk9eIOVm4ZY95cSPJG-OMNFN76KU41OhpJ7kjWQJQYVuqs_it0&usqp=CAU",
             link: "https://github.com/milindsahay/ThinkTank"
         },
         {
             name: "Adopt Me",
-            content: "A pet adoption website using react",
+            content: "Adopt a pet as they appeal to you with their own words! A pet adoption website using incoming features of ReactJS",
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJnbjer-oBSRn1W5DLULk9eIOVm4ZY95cSPJG-OMNFN76KU41OhpJ7kjWQJQYVuqs_it0&usqp=CAU",
             link: "https://github.com/milindsahay/AdoptMe"
         },
         {
             name: "Fox Game",
-            content: "A state machine game built with vanilla javascript, html and css.",
+            content: "Cater to fox's needs and make sure you keep him alive day/night, every season until time runs out! A state machine game built with vanilla javascript, html and css.",
             image: "https://brandslogo.net/wp-content/uploads/2015/07/javascript-logo-vector-download.jpg",
             link: "https://github.com/milindsahay/FoxGame"
         },
