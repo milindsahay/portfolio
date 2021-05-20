@@ -5,7 +5,7 @@ const Projects = () => {
     const projects = [
         {
             name: "Neural Style Transfer",
-            content: "A deep learning model used to take two images—a content image and a style reference image (such as an artwork by a famous painter)—and blend them together so that the output converges to be a mixture of two.",
+            content: "A deep learning model using transfer learning to take two images — a content image and a style reference image and blend them together so that the output converges to be a mixture of two.",
             image: "https://florencefennel.co.in/image/cache/catalog/florencefennel/Machine--Learning-1000x1000.jpg",
             link: "https://github.com/milindsahay/NeuralStyleTransfer"
         },
@@ -23,13 +23,13 @@ const Projects = () => {
         },
         {
             name: "Think Tank",
-            content: "A social, user authenticated website using react, redux and firebase.",
+            content: "A social, user authenticated website using react, redux and firebase, supporting realtime updates.",
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJnbjer-oBSRn1W5DLULk9eIOVm4ZY95cSPJG-OMNFN76KU41OhpJ7kjWQJQYVuqs_it0&usqp=CAU",
             link: "https://github.com/milindsahay/ThinkTank"
         },
         {
             name: "Adopt Me",
-            content: "Adopt a pet as they appeal to you with their own words! A pet adoption website using incoming features of ReactJS",
+            content: "Adopt a pet as they appeal to you in their own words! A pet adoption website using incoming features of ReactJS",
             image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJnbjer-oBSRn1W5DLULk9eIOVm4ZY95cSPJG-OMNFN76KU41OhpJ7kjWQJQYVuqs_it0&usqp=CAU",
             link: "https://github.com/milindsahay/AdoptMe"
         },
