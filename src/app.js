@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
+import Projects from "./components/Projects";
 
 const App = () => {
     const [toggleSidebar, useToggleSidebar] = useState(false);
@@ -18,6 +19,7 @@ const App = () => {
       <Router>
         <Home path="/" />
         <About path="/about" />
+        <Projects path="/projects" />
         <Experience path="/experience" />
         <Contact path="/contact" />
       </Router>

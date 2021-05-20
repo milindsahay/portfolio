@@ -17,6 +17,7 @@ class Navbar extends React.Component {
         <div className="links">
           <Navitem item="HOME" toLink="/" changeToggle={ this.props.changeToggle }/>
           <Navitem item="ABOUT" toLink="/about" changeToggle={ this.props.changeToggle } />
+          <Navitem item="PROJECTS" toLink="/projects" changeToggle={ this.props.changeToggle } />
           <Navitem item="EXPERIENCE" toLink="/experience" changeToggle={ this.props.changeToggle } />
           <Navitem item="CONTACT" toLink="/contact" changeToggle={ this.props.changeToggle }/>
         </div>
