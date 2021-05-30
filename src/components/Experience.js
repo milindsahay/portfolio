@@ -44,7 +44,7 @@ const Experience = () => {
           className="vertical-timeline-element--work"
           date="Oct 2019 - Apr 2020"
           iconStyle={{ background: "white", color: "#fff" }}
-          icon={<TimelineIcon src="https://media-exp1.licdn.com/dms/image/C4E0BAQGglb-Xdj7nFA/company-logo_200_200/0/1584205959241?e=1622073600&v=beta&t=r74oaTYFw-di39czCGbOKVBIpof6cSyMQKzYii71gBU" />}
+          icon={<TimelineIcon src="https://i.ibb.co/0hqXpt7/centricwave.png" />}
         >
           <h3 className="vertical-timeline-element-title">
             Centricwave Infotech
