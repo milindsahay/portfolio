@@ -30,7 +30,7 @@ const Experience = () => {
           className="vertical-timeline-element--work"
           date="2016 - 2020"
           iconStyle={{ background: "white", color: "#fff" }}
-          icon={<TimelineIcon src="https://sarkarijobmaster.in/wp-content/uploads/2020/11/DTU-Logo.png" />}
+          icon={<TimelineIcon src="https://www.collegesignal.com/images/colleges/cz_5933503a584f2170438/logo/dtu_logo-m6921-original.png" />}
         >
           <h3 className="vertical-timeline-element-title">
             Delhi College of Engineering
