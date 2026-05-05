@@ -1,7 +1,7 @@
 import React from "react";
 import ReactTypingEffect from "react-typing-effect";
 import Social from "./Social";
-// Todo add success on click functionality in contact
+
 const Home = () => {
   return (
     <div className="home-container">
@@ -16,16 +16,16 @@ const Home = () => {
           "Web Developer",
           "Machine Learning Enthusiast",
           "Delhi College of Engineering",
-          "Batch of 2020",
         ]}
         speed={50}
         eraseSpeed={50}
         eraseDelay={1400}
       />
       <div className="description">
-        I am a Software Developer, currently working at Flipkart. Building
-        scalable and performant models is what I strive for. Always looking
-        forward to new challenges when it comes to technology.
+        I am a Software Engineer currently working at Uber, previously at
+        Flipkart. Building scalable and performant systems is what I strive
+        for. Always looking forward to new challenges when it comes to
+        technology.
       </div>
       <Social />
     </div>

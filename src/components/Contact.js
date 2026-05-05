@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useRef } from "react";
 import Social from "./Social";
 import ContactForm from "./ContactUs";
+import Footer from "./Footer";
+import BackToTop from "./BackToTop";
 
 const Contact = () => {
+  const scrollRef = useRef(null);
   return (
-    <div className=" contact-container">
+    <div className="contact-container" ref={scrollRef}>
       <div className="title mb-3 title-sm">
         <span className="first-name">Contact </span>
         <span className="last-name">Me.</span>
@@ -19,6 +22,8 @@ const Contact = () => {
         We can connect over other platforms as well!
       </div>
       <Social />
+      <Footer />
+      <BackToTop scrollRef={scrollRef} />
     </div>
   );
 };

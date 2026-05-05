@@ -4,9 +4,11 @@ import { Router } from "@reach/router";
 import Navbar from "./navbar/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
+import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import Achievements from "./components/Achievements";
 
 const App = () => {
     const [toggleSidebar, useToggleSidebar] = useState(false);
@@ -19,8 +21,10 @@ const App = () => {
       <Router>
         <Home path="/" />
         <About path="/about" />
+        <Skills path="/skills" />
         <Projects path="/projects" />
         <Experience path="/experience" />
+        <Achievements path="/achievements" />
         <Contact path="/contact" />
       </Router>
     </div>
